@@ -1,0 +1,16 @@
+[project]
+name = "next-word-predictor"
+version = "0.1.0"
+description = "Search Wikipedia, train an LSTM on raw article text, predict next words."
+requires-python = ">=3.13"
+dependencies = [
+    "nltk>=3.10.3",
+    "numpy>=2.5.2",
+    "requests>=2.34.2",
+    "tensorflow>=2.21.0",
+    "wikipedia-api>=0.15.0",
+    "fastapi>=0.115.0",
+    "uvicorn>=0.34.0",
+    "streamlit>=1.40.0",
+    "pydantic>=2.0.0",
+]
