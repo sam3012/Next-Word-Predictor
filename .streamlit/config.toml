@@ -1,0 +1,29 @@
+# Project-level Streamlit config. Overrides the user/system config for this app.
+# Applies when Streamlit is launched with this folder as the working directory.
+
+[theme]
+base = "dark"
+primaryColor = "#e8c584"
+backgroundColor = "#14110f"
+secondaryBackgroundColor = "#1c1814"
+textColor = "#f3eadb"
+linkColor = "#e8c584"
+codeBackgroundColor = "#1c1814"
+borderColor = "#3a3129"
+font = "sans-serif"
+headingFont = "serif"
+baseRadius = "0.9rem"
+buttonRadius = "full"
+
+[theme.sidebar]
+backgroundColor = "#171310"
+secondaryBackgroundColor = "#211b16"
+borderColor = "#3a3129"
+
+[client]
+# "minimal" hides the toolbar/options menu when nothing needs to be shown there,
+# which removes the Settings dialog and its light/dark theme switcher.
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
