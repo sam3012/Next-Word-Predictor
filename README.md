@@ -2,6 +2,10 @@
 
 A small language-model playground: search Wikipedia for an article, train a compact **LSTM** on that page’s raw text, then continue a sentence in the style of the topic. Built with **FastAPI** (training + inference) and **Streamlit** (UI). Each model lives on a single article — not the whole internet — so it stays small and trains in a few minutes on CPU.
 
+## Demo
+
+https://github.com/user-attachments/assets/bb413ac6-2545-47b4-84ad-f83de37c2aa5
+
 ---
 
 ## Features
